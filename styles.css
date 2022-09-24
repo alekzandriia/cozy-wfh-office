@@ -1,0 +1,34 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+header {
+    width:100vw;
+    position:relative;
+    margin-top:25%;
+}
+
+img {
+    max-width:100%;
+    position:absolute;
+    top:-150vh;
+}
+
+#background {
+transition: 4s ease;
+transform:translateY(150vh);
+}
+
+
+#midground {
+    transition: 4s ease;
+    transition-delay: 1s;
+    transform:translateY(150vh);
+}
+
+#foreground {
+    transition: 4s ease;
+    transition-delay: 2s;
+    transform:translateY(150vh);
+}
